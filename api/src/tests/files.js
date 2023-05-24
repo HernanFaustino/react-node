@@ -44,7 +44,7 @@ describe('Files', () => {
         });
     });
 
-    it('it should GET one file data', (done) => {
+    it('it should FAIL with not found file data', (done) => {
       chai
         .request(server)
         .get('/api/v1/files/data?fileName=test5.csv')
