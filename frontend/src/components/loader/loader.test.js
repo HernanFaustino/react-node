@@ -12,8 +12,8 @@ afterEach(() => {
 
 it('Test Visible Loader', async () => {
   const component = renderComponent(true);
-  const laoder = component.queryByTestId('loader');
-  expect(laoder).toBeTruthy();
+  const visibleLoader = component.queryByTestId('loader');
+  expect(visibleLoader).toBeTruthy();
 });
 
 it('Test Hidden Loadeer', async () => {
