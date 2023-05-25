@@ -3,7 +3,7 @@ const cors = require('cors');
 
 const v1FileRouter = require('./router/v1/fileRouter');
 const app = express();
-const PORT = process.env.PORT || 3100;
+const PORT = process.env.PORT || 4000;
 
 app.use(express.json());
 app.use(cors());
