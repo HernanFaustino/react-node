@@ -9,18 +9,18 @@ You can start the project with docker or directly running each service manually.
 - Go the project root and run:
 
   ```
-  $ docker-compose up
+  docker-compose up
   ```
 - Go to `localhost:3000`.
 
 - The API will be runnning in `localhost:4000`.
-- To run the react app tests run:
+- To run the react app tests:
   ```
-  $ docker-compose run --rm frontend yarn test
+  docker-compose run --rm frontend yarn test
   ```
-- To run the API tests run:
+- To run the API tests:
   ```
-  $ docker-compose run --rm api yarn test
+  docker-compose run --rm api yarn test
   ```
 
 ## Run Manually
@@ -31,17 +31,17 @@ You can start the project with docker or directly running each service manually.
 
 - Install dependencies:
   ```
-  $ yarn
+  yarn
   ```
 
-- To start the API run, and it will be running in `localhost:4000`.:
+- To start the API:
   ```
-  $ yarn start
+  yarn start
   ```
-
+  and it will be running in `localhost:4000`.
 - To run tests:
   ```
-  $ yarn test
+  yarn test
   ```
 
 ### Start React App
@@ -50,17 +50,18 @@ You can start the project with docker or directly running each service manually.
 
 - Install dependencies:
   ```
-  $ yarn
+  yarn
   ```
 
-- Start react project, then go to `localhost:3000`:
+- Start react project:
   ```
-  $ yarn start
+  yarn start
   ```
-
+  then go to `localhost:3000`.
+  
 - To run tests:
   ```
-  $ yarn test
+  yarn test
   ```
 
 ## Troubleshooting
