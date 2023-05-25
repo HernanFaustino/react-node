@@ -1,0 +1,14 @@
+.loader {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin: auto;
+}
+.container {
+  min-height: 300px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
