@@ -26,7 +26,6 @@ You can start the project with docker or directly running each service manually.
 ## Run Manually
 
 ### Start the API
- <br/>
 
 - Go to folder `/api`.
 
@@ -44,10 +43,8 @@ You can start the project with docker or directly running each service manually.
   ```
   $ yarn test
   ```
-<br/>
 
 ### Start React App
-<br />
 
 - Go to folder `/frontend`.
 
