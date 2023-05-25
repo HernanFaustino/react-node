@@ -6,6 +6,11 @@ You can start the project with docker or directly running each service manually.
 
 ## Run with Docker
 
+### Requirements
+- Docker
+
+### Instruccions
+
 - Go the project root and run:
 
   ```
@@ -24,6 +29,9 @@ You can start the project with docker or directly running each service manually.
   ```
 
 ## Run Manually
+
+### Requirements
+- Node v16.14.0
 
 ### Start the API
 
