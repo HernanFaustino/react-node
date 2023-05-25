@@ -58,14 +58,13 @@ You can start the project with docker or directly running each service manually.
   yarn start
   ```
   then go to `localhost:3000`.
-  
+
 - To run tests:
   ```
   yarn test
   ```
 
 ## Troubleshooting
----
 
 In case docker-compose doesn't work in windows, update the fronend service in `docker-compose.yaml`, it should lool like this:
 ```yaml
