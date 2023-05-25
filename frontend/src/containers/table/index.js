@@ -15,14 +15,13 @@ export function TableContainer({ children }) {
 
   const formattedFiles = useMemo(() => {
     const fileRows = data.flatMap(({ file, lines }) => lines.map((line) => ({ file, ...line })));
-    console.log(fileRows);
     return fileRows;
   }, [data]);
 
   useEffect(() => {
     dispatch(getFilesData());
   }, [dispatch]);
-  
+
   return (
     <div className="container">
       {error && <Alert variant={'danger'}>{error}</Alert>}
