@@ -11,9 +11,7 @@ import './styles.css';
 export function TableContainer({ children }) {
   const dispatch = useDispatch();
   const { data, loading, error } = useSelector((state) => state.files);
-  useEffect(() => {
-    dispatch(getFilesData());
-  }, [dispatch]);
+
 
   const formattedFiles = useMemo(() => {
     const fileRows = data.flatMap(({ file, lines }) => lines.map((line) => ({ file, ...line })));
@@ -21,6 +19,10 @@ export function TableContainer({ children }) {
     return fileRows;
   }, [data]);
 
+  useEffect(() => {
+    dispatch(getFilesData());
+  }, [dispatch]);
+  
   return (
     <div className="container">
       {error && <Alert variant={'danger'}>{error}</Alert>}
