@@ -5,7 +5,6 @@ This projet was created with React and Express for API
 You can start the project with docker or directly running each service manually.
 
 ## Run with Docker
----
 
 - Go the project root and run:
 
@@ -25,7 +24,7 @@ You can start the project with docker or directly running each service manually.
   ```
 
 ## Run Manually
----
+
 ### Start the API
  <br/>
 
